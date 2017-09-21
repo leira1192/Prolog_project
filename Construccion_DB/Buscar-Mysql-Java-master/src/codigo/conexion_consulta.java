@@ -40,19 +40,19 @@ public class conexion_consulta {
         Lista_Lugar.add("Tokio");
         Lista_Lugar.add("Madrid");
         Lista_Lugar.add("Paris");
-        Lista_Lugar.add("Los Angeles");
+        Lista_Lugar.add("Texas");
         Lista_Lugar.add("Sidney");
         Lista_Lugar.add("Roma");
-        Lista_Lugar.add("Hong Kong");
-        Lista_Lugar.add("Costa Rica");
+        Lista_Lugar.add("Pekin");
+        Lista_Lugar.add("CostaRica");
         Lista_Lugar.add("Ejipto");
         Lista_Lugar.add("Panama");
         Lista_Lugar.add("Canada");
-        Lista_Lugar.add("Rio de Janeiro");
+        Lista_Lugar.add("Janeiro");
         Lista_Lugar.add("Manchester");
         Lista_Lugar.add("Berlin");
         Lista_Lugar.add("Taiwan");
-        Lista_Lugar.add("Buenos Aires");
+        Lista_Lugar.add("BuenosAires");
         
         ArrayList<String> Hora = new ArrayList<String>();
         Hora.add("06:00"); //13 items
@@ -84,12 +84,12 @@ public class conexion_consulta {
         Aerolineas.add("Avianca");
         Aerolineas.add("United");
         Aerolineas.add("Emirates");
-        Aerolineas.add("El Ingeniero");
-        Aerolineas.add("Un puntito");
+        Aerolineas.add("El_Ingeniero");
+        Aerolineas.add("Un_puntito");
         Aerolineas.add("Delta");
         int elegir_origen, elegir_destino, elegir_salida, elegir_llegada, elegir_dia, elegir_aerolinea, elegir_precio, rango_hora;
         boolean seguir = true;
-        for (int i = 1; i <= 1000; i++) {
+        for (int i = 1; i <= 10000; i++) {
             seguir = true;
             while (seguir) {
                 elegir_origen = (int) (Math.random() * Lista_Lugar.size());
